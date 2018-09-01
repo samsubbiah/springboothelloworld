@@ -29,7 +29,13 @@ public class ProductsController {
 
 	@RequestMapping("/hello")
 	public String sayHi() {
-		return "hello subbiah";
+		return "hello subbiah modified";
+
+	}
+	
+	@RequestMapping("/hello1")
+	public String sayHi1() {
+		return "hello subbiah modified";
 
 	}
 
