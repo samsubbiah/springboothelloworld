@@ -39,6 +39,11 @@ public class ProductsController {
 
 	}
 
+	@RequestMapping("/hello3")
+	public String sayHi3() {
+		return "hello subbiah from Meena";
+
+	}
 	@RequestMapping(method = RequestMethod.POST, value = "/products")
 	public void addProduct(@RequestBody Product pPerson) {
 		productService.addProduct(pPerson);
